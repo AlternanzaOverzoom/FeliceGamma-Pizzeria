@@ -15,7 +15,8 @@ Prima di tutto scarica la cartella chiamata `"Pizzeria"` presente nella Reposito
 
 Segui i seguenti passaggi!
 
- - [ ] Apri `SignIn.html` nel Browser che più preferisci;
+ - [ ] Apri [`index.html`](https://alternanzaoverzoom.github.io/FeliceGamma-Pizzeria/) nel Browser che più preferisci;
+ - [ ] Verrai reindirizzato alla pagina di Login nel caso tu non abbia gia eseguito l'accesso in precedenza;
  - [ ] Clicca su `SignIn` sotto il pulsante Login, e crea il tuo account;
  - [ ] Accedi inserendo i dati dell'account da te appena creato;
  - [ ] Ora che ti trovi nella home page, non ti resta che scegliere cosa mangiare oggi;
