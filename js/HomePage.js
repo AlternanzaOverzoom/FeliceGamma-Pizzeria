@@ -1,5 +1,5 @@
 function redirect() {
-    if(localStorage.getItem("userLoggedin") == null){
+    if(localStorage.getItem("userLoggedIn") == null){
         window.location.replace("LogInPage.html");
     }
 }
