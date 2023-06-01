@@ -160,7 +160,9 @@
   }
 
   footer {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     text-align: center;
     padding: 3px;
     color: rgba(255, 255, 255, 0.826);
@@ -176,7 +178,7 @@
     opacity: 0.5;
   }
 
-  footer table {
+  footer div {
     color: rgba(255, 255, 255, 0.826);
     width: 80%;
     margin-left: 10%;
@@ -184,15 +186,3 @@
     margin-top: 2.5%;
     margin-bottom: 2.5%;
   }
-
-  .t0 {
-    text-align: left;
-  }
-
-  .t1 {
-    text-align: center;
-  }
-
-  .t2 {
-    text-align: right;
-  } 
