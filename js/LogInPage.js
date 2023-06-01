@@ -6,7 +6,7 @@ function Login () {
   if(username == localStorage.getItem("username") 
   && email == localStorage.getItem("email") 
   && password == localStorage.getItem("password")){
-    window.location.replace("HomePage.html");
+    window.location.replace("index.html");
   } else if (username != localStorage.getItem("username") 
   && email != localStorage.getItem("email")) {
     var error=document.getElementById("error-message");
