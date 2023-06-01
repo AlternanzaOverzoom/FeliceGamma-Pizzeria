@@ -2,10 +2,12 @@ function Login () {
   var username = document.getElementById("uname").value;
   var email = document.getElementById("email").value;
   var password = document.getElementById("psw").value;
+  var userLoggedin = "true";
 
   if(username == localStorage.getItem("username") 
   && email == localStorage.getItem("email") 
   && password == localStorage.getItem("password")){
+    localStorage.setItem("userLoggedIn", userLoggedin)
     window.location.replace("index.html");
   } else if (username != localStorage.getItem("username") 
   && email != localStorage.getItem("email")) {

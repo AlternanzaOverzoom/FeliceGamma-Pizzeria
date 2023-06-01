@@ -1,7 +1,5 @@
 function redirect() {
-    if(localStorage.getItem("username") == null 
-    || localStorage.getItem("email") == null
-    || localStorage.getItem("password") == null){
+    if(localStorage.getItem("userLoggedin") == true){
         window.location.replace("LogInPage.html");
     }
 }
