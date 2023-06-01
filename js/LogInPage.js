@@ -28,6 +28,8 @@ function Signin(){
   localStorage.setItem("username", username);
   localStorage.setItem("email", email);
   localStorage.setItem("password", password);
+  window.location.replace("LogInPage.html");
+  return false;
 }
 
 function showPsw() {

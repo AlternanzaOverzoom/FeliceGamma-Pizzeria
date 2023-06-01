@@ -10,7 +10,7 @@
             <img src="img/AddUserIcon.jpg" alt="AddUserIcon">
             <h1>Signin - Pizzeria Bella Andria</h1>
         </div>
-        <form onsubmit="Signin()" action="LoginPage.html">
+        <form onsubmit="return Signin()">
             <div class="container">
                 
                 <p>
@@ -31,7 +31,7 @@
                     <input type="checkbox" id="show-hide" name="show-hide" value="" onclick="showPsw()"/>
 		            <label for="show-hide">Mostra Password</label> 
                 </p>
-                <button type="submit">SignIn</button>
+                <button type="submit" onclick="Signin()">SignIn</button>
                 <br>
             </div>
           
